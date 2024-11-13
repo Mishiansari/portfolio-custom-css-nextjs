@@ -1,0 +1,31 @@
+.scroll-div{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.scrol-button{
+    background-color: #1A1D23;
+    color: #FFFF;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+.scrol-button:focus{
+    outline: none;
+}

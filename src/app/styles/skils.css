@@ -1,0 +1,32 @@
+.skills-container{
+    padding: 1rem;
+    background-color: #1f0b2d;
+    border-radius: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.skills-container:hover{
+    background-color: #b590d1;
+
+}
+.skills-img{
+    object-fit:cover ;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.skills-heading {
+    font-size: 18px;
+    margin-top: 1rem;
+    color: #fff;
+    font-weight: 600;
+}
+.skills-div{
+    background-color: #000;
+    margin-top: 1rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+    color: #fff;
+    opacity: 0.4;
+}

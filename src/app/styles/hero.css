@@ -1,0 +1,129 @@
+.hero-container{
+width: 100%;
+padding-top: 4vh;
+background-color: #635072;
+overflow: hidden;
+position: relative;
+}
+@media(min-width:768px){
+    .hero-container{
+        padding-top: 12vh;
+    }
+}
+.hero-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-div1{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    gap: 3rem;
+}
+@media(min-width:1024px){
+    .hero-div1{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+.hero-heading{
+    font-size: 24px;
+    margin-bottom: 1rem;
+    color: #c7c7c7;
+    font-weight: 600;
+}
+@media(min-width:768px){
+    .hero-heading1{
+        font-size: 28px;
+    }
+}
+@media(min-width:1024px){
+    .hero-heading{
+        font-size: 32px;
+    }
+}
+.hero-heading1{
+    font-size: 28px;
+    font-weight: bold;
+    color: #8596c0;
+}
+@media(min-width:640px){
+    .hero-heading1{
+        font-size: 32px;
+    }
+}
+@media(min-width:768px){
+    .hero-heading1{
+        font-size: 40px;
+        line-height: 3rem;
+    }
+}
+@media(min-width:1024px){
+    .hero-heading1{
+        font-size: 32px;
+        line-height: 3.5rem;
+    }
+}
+@media(min-width:1280px){
+    .hero-heading1{
+        font-size: 56px;
+        line-height: 4rem;
+    }
+}
+.hero-text{
+    margin-top: 1.5rem;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.6;
+}
+@media(min-width:768px){
+    .hero-text{
+        font-size: 16px;
+    }
+}
+.hero-button{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.37rem;
+    padding-bottom: 0.37rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 0.5rem;
+    margin-top: 0.75rem;
+    background-color: #5b21b6;
+    transition: all 200ms;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+@media(min-width:768px){
+    .hero-button{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 0.62rem;
+        padding-bottom: 0.625rem;
+        font-size: 18px;
+    }
+}
+.hero-button:hover{
+    background-color: #7c3aed;
+}
+.hero-div3{
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    border-style: solid;
+    overflow: hidden;
+    width: 500;
+    height: 500;
+}
+@media(min-width:1024px){
+    .hero-div3{
+        display: block;
+    }
+}

@@ -1,0 +1,61 @@
+.skillc-container{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #625072;
+}
+.skillc-heading{
+    background-color: #2f4f7f;
+    width: fit-content;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right:1rem; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-size: 24px;
+    text-transform:uppercase;
+    transform:rolate(-6deg);    
+}
+@media(min-width:640px){
+    .skillc-heading{
+        font-size: 30px;
+    }
+}
+@media(min-width:768px){
+    .skillc-heading{
+        font-size:36px;
+    }
+}
+.skillc-div{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+@media(min-width:640px){
+    .skillc-div{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+}
+@media(min-width:768px){
+    .skillc-div{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media(min-width:1024px){
+    .skillc-div{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media(min-width:1280px){
+    .skillc-div{
+        grid-template-columns: repeat(5,1fr);
+    }
+}
